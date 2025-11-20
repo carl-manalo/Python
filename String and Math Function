@@ -1,0 +1,7 @@
+import math
+text = "Hello World"
+print(text.upper())
+print(text.lower())
+print("Length:", len(text))
+num = 16
+print("Square root:", math.sqrt(num))
