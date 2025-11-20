@@ -1,0 +1,6 @@
+import re
+text = "My email is test@example.com"
+pattern = r"\b[\w.-]+@[\w.-]+\.\w+\b"
+match = re.search(pattern, text)
+if match:
+    print("Found:", match.group())
